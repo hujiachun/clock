@@ -1,0 +1,7486 @@
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\Jira\clock5.0\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 5 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (8 defs/79.6KiB) with dex B (279 defs/574.1KiB). Result is 287 defs/824.6KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+cannot stat 'D:\Jira\clock5.0\bin\clock.jar.jar': No such file or directory
+Error: /data/local/tmp/clock.jar.jar does not exist
+
+Usage: uiautomator <subcommand> [options]
+
+
+
+Available subcommands:
+
+
+
+help: displays help message
+
+
+
+runtest: executes UI automation tests
+
+    runtest <class spec> [options]
+
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+
+      <JARS>: a list of jar files containing test classes and dependencies. If
+
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+
+        absolute path if the file is elsewhere. Multiple files can be
+
+        specified, separated by space.
+
+      <CLASSES>: a list of test class names to run, separated by comma. To
+
+        a single method, use TestClass#testMethod format. The -e or -c option
+
+        may be repeated. This option is not required and if not provided then
+
+        all the tests in provided jars will be run automatically.
+
+    options:
+
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+
+               is terminated, e.g. USB is disconnected.
+
+      -e debug [true|false]: wait for debugger to connect before starting.
+
+      -e runner [CLASS]: use specified test runner class instead. If
+
+        unspecified, framework default runner will be used.
+
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+
+        May be repeated.
+
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+
+
+dump: creates an XML dump of current UI hierarchy
+
+    dump [--verbose][file]
+
+      [--compressed]: dumps compressed layout information.
+
+      [file]: the location where the dumped XML should be stored, default is
+
+      /storage/emulated/legacy/window_dump.xml
+
+
+
+events: prints out accessibility events until terminated
+
+
+
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (8 defs/79.6KiB) with dex B (279 defs/574.1KiB). Result is 287 defs/824.5KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+3882 KB/s (6357473 bytes in 1.599s)
+Segmentation fault (core dumped) 
+
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (8 defs/79.6KiB) with dex B (279 defs/574.1KiB). Result is 287 defs/824.6KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+5051 KB/s (6357460 bytes in 1.229s)
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (8 defs/78.3KiB) with dex B (279 defs/574.1KiB). Result is 287 defs/823.0KiB. Took 0.8s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5597 KB/s (6357040 bytes in 1.109s)
+Segmentation fault (core dumped) 
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (9 defs/79.4KiB) with dex B (279 defs/574.1KiB). Result is 288 defs/824.3KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+4605 KB/s (6357448 bytes in 1.348s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.909
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (11 defs/82.9KiB) with dex B (279 defs/574.1KiB). Result is 290 defs/829.1KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+5845 KB/s (6357809 bytes in 1.062s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.79
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (11 defs/82.9KiB) with dex B (279 defs/574.1KiB). Result is 290 defs/829.1KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
+4495 KB/s (6357812 bytes in 1.381s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test007SetSnoozeClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+false
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test007SetSnoozeClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 89.835
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (11 defs/82.9KiB) with dex B (279 defs/574.1KiB). Result is 290 defs/829.1KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5737 KB/s (6357812 bytes in 1.082s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test007SetSnoozeClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.3.3
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.0 rc3
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex A (11 defs/82.9KiB) with dex B (279 defs/574.1KiB). Result is 290 defs/829.1KiB. Took 0.6s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+5613 KB/s (6357812 bytes in 1.106s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test007SetSnoozeClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+Terminated 
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\Jira\clock5.0\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 8 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+3372 KB/s (2585695 bytes in 0.748s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.429
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4760 KB/s (2585695 bytes in 0.530s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.303
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+6225 KB/s (2585695 bytes in 0.405s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.166
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.4KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3596 KB/s (2585701 bytes in 0.702s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.478
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5994 KB/s (2585712 bytes in 0.421s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+! isScreenOn
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.191
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5581 KB/s (2585703 bytes in 0.452s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+! isScreenOn
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 8.583
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3596 KB/s (2585713 bytes in 0.702s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.406
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5994 KB/s (2585713 bytes in 0.421s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+! isScreenOn
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.507
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4374 KB/s (2585714 bytes in 0.577s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start2
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+! isScreenOn
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start2
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start2
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.324
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+4150 KB/s (2585714 bytes in 0.608s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start2
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+! isScreenOn
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test0000Start2
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start2
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.267
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4624 KB/s (2585703 bytes in 0.545s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start2
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+! isScreenOn
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test0000Start2
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start2
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 9.284
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4488 KB/s (2585703 bytes in 0.562s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test059CloseKeepScreen
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+true
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test059CloseKeepScreen
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test059CloseKeepScreen
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 53.164
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.4KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4014 KB/s (2585711 bytes in 0.629s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+java.lang.NullPointerException: Attempt to invoke interface method 'boolean com.meizu.uibridge.TestBridge.isFpsRecording()' on a null object reference
+
+	at com.meizu.uibridge.BridgeUtil.<clinit>(BridgeUtil.java:28)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:974)
+
+	at java.lang.reflect.Method.invoke(Native Method)
+
+	at java.lang.reflect.Method.invoke(Method.java:372)
+
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+
+	at junit.framework.TestResult.run(TestResult.java:118)
+
+	at junit.framework.TestCase.run(TestCase.java:124)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test024LockClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test024LockClock:
+
+com.meizu.uibridge.NotRootException: Device not root!
+
+	at com.meizu.uibridge.BridgeUtil.isOnWhiteList(BridgeUtil.java:267)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:974)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.uibridge.NotRootException: Device not root!
+
+	at com.meizu.uibridge.BridgeUtil.isOnWhiteList(BridgeUtil.java:267)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:974)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 7.728
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.4KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4565 KB/s (2585711 bytes in 0.553s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test024LockClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in test024LockClock:
+
+junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 6.227
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.4KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4484 KB/s (2585711 bytes in 0.563s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test024LockClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in test024LockClock:
+
+junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 6.404
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.4s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4460 KB/s (2585703 bytes in 0.566s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test024LockClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in test024LockClock:
+
+junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 6.934
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.4s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4701 KB/s (2585703 bytes in 0.537s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test024LockClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in test024LockClock:
+
+junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test024LockClock(ClockSanityTestNewCase.java:999)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 6.699
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.4s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5237 KB/s (2585703 bytes in 0.482s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+2016-1-19  11:51:12
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test024LockClock
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test024LockClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 127.247
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.4KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.5KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3948 KB/s (2585769 bytes in 0.639s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test000init
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test000init:
+
+com.meizu.automation.constants.AutoException: Element not found with By[TEXT=Music]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.getBounds(DefaultElement.java:435)
+
+	at com.meizu.clock.test.TestScript.copyMusic(TestScript.java:187)
+
+	at com.meizu.clock.test.TestScript.readyMusic(TestScript.java:157)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test000init(ClockSanityTestNewCase.java:274)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with By[TEXT=Music]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.getBounds(DefaultElement.java:435)
+
+	at com.meizu.clock.test.TestScript.copyMusic(TestScript.java:187)
+
+	at com.meizu.clock.test.TestScript.readyMusic(TestScript.java:157)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test000init(ClockSanityTestNewCase.java:274)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 52.443
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.6KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4809 KB/s (2585814 bytes in 0.525s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test000init
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test000init:
+
+com.meizu.automation.constants.AutoException: Element not found with UiObjectNotFoundException: By[TEXT=复制]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:586)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:593)
+
+	at com.meizu.automation.AutoBaseTestCase.clickByText(AutoBaseTestCase.java:283)
+
+	at com.meizu.clock.test.TestScript.copyMusic(TestScript.java:183)
+
+	at com.meizu.clock.test.TestScript.readyMusic(TestScript.java:160)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test000init(ClockSanityTestNewCase.java:274)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with UiObjectNotFoundException: By[TEXT=复制]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:586)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:593)
+
+	at com.meizu.automation.AutoBaseTestCase.clickByText(AutoBaseTestCase.java:283)
+
+	at com.meizu.clock.test.TestScript.copyMusic(TestScript.java:183)
+
+	at com.meizu.clock.test.TestScript.readyMusic(TestScript.java:160)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test000init(ClockSanityTestNewCase.java:274)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 77.283
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.6KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+7073 KB/s (2585838 bytes in 0.357s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test000init
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test000init:
+
+com.meizu.automation.constants.AutoException: Element not found with By[TEXT=Music]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.getBounds(DefaultElement.java:435)
+
+	at com.meizu.clock.test.TestScript.copyMusic(TestScript.java:189)
+
+	at com.meizu.clock.test.TestScript.readyMusic(TestScript.java:159)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test000init(ClockSanityTestNewCase.java:274)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with By[TEXT=Music]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.getBounds(DefaultElement.java:435)
+
+	at com.meizu.clock.test.TestScript.copyMusic(TestScript.java:189)
+
+	at com.meizu.clock.test.TestScript.readyMusic(TestScript.java:159)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test000init(ClockSanityTestNewCase.java:274)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 53.004
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.6KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5058 KB/s (2585842 bytes in 0.499s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test000init
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 90.035
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.6KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3843 KB/s (2585833 bytes in 0.657s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test000init
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test000init
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 92.598
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.6KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.7KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4066 KB/s (2585893 bytes in 0.621s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.842
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.6KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.7KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3791 KB/s (2585886 bytes in 0.666s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test0000Start1
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test0000Start1
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.881
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.6KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 22 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+3093 KB/s (2585862 bytes in 0.816s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockMultiLangCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test001
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test001
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test001:
+
+com.meizu.automation.constants.AutoException: Element not found with By[RESOURCE_ID=com.android.alarmclock:id/fab]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.ClockMultiLangCase.test001(ClockMultiLangCase.java:87)
+
+	at com.meizu.clock.test.ClockMultiLangCase.runTest(ClockMultiLangCase.java:44)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test001
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with By[RESOURCE_ID=com.android.alarmclock:id/fab]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.ClockMultiLangCase.test001(ClockMultiLangCase.java:87)
+
+	at com.meizu.clock.test.ClockMultiLangCase.runTest(ClockMultiLangCase.java:44)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 19.782
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.6KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+3686 KB/s (2585862 bytes in 0.685s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockMultiLangCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test001
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test001
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test001
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 57.79
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.6KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.7KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4252 KB/s (2585853 bytes in 0.593s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockMultiLangCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test001
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test001
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test001
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 52.4
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.7KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.9KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4271 KB/s (2585922 bytes in 0.591s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockMultiLangCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test009
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+2016-1-22  9:33:3
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test009
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test009
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 126.416
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.7KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.9KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4294 KB/s (2585921 bytes in 0.588s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockMultiLangCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test008
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+-----setUp-----
+
+-----runTest-----
+
+2016-1-22  9:35:1
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test008
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test008
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockMultiLangCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 99.706
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.7KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.9KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+2834 KB/s (2585909 bytes in 0.891s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test003AddClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test003AddClock:
+
+com.meizu.automation.constants.AutoException: Element not found with By[RESOURCE_ID=com.android.alarmclock:id/fab]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.TestScript.clickAddClock(TestScript.java:364)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test003AddClock(ClockSanityTestNewCase.java:344)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with By[RESOURCE_ID=com.android.alarmclock:id/fab]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.TestScript.clickAddClock(TestScript.java:364)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test003AddClock(ClockSanityTestNewCase.java:344)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 64.504
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.7KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.9KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4339 KB/s (2585909 bytes in 0.582s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test003AddClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test003AddClock:
+
+com.meizu.automation.constants.AutoException: Element not found with UiObjectNotFoundException: By[TEXT=删除]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:586)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:593)
+
+	at com.meizu.automation.AutoBaseTestCase.clickByText(AutoBaseTestCase.java:283)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:343)
+
+	at com.meizu.clock.test.TestScript.clickAddClock(TestScript.java:363)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test003AddClock(ClockSanityTestNewCase.java:344)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with UiObjectNotFoundException: By[TEXT=删除]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:586)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:593)
+
+	at com.meizu.automation.AutoBaseTestCase.clickByText(AutoBaseTestCase.java:283)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:343)
+
+	at com.meizu.clock.test.TestScript.clickAddClock(TestScript.java:363)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test003AddClock(ClockSanityTestNewCase.java:344)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 25.613
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.7KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.9KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4244 KB/s (2585909 bytes in 0.595s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test003AddClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test003AddClock:
+
+com.meizu.automation.constants.AutoException: Element not found with UiObjectNotFoundException: By[TEXT=删除]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:586)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:593)
+
+	at com.meizu.automation.AutoBaseTestCase.clickByText(AutoBaseTestCase.java:283)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:343)
+
+	at com.meizu.clock.test.TestScript.clickAddClock(TestScript.java:363)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test003AddClock(ClockSanityTestNewCase.java:344)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with UiObjectNotFoundException: By[TEXT=删除]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:586)
+
+	at com.meizu.automation.DefaultElement.waitForExistsAndClick(DefaultElement.java:593)
+
+	at com.meizu.automation.AutoBaseTestCase.clickByText(AutoBaseTestCase.java:283)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:343)
+
+	at com.meizu.clock.test.TestScript.clickAddClock(TestScript.java:363)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test003AddClock(ClockSanityTestNewCase.java:344)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 28.204
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4846 KB/s (2585802 bytes in 0.521s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test003AddClock
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 267.746
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3896 KB/s (2585814 bytes in 0.648s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock3
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test005AddHolidayClock3
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock3
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 155.06
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4265 KB/s (2585813 bytes in 0.592s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test005AddHolidayClock4
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 60.074
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4258 KB/s (2585813 bytes in 0.593s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test005AddHolidayClock4
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 136.278
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5778 KB/s (2585813 bytes in 0.437s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test005AddHolidayClock4
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 98.845
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4126 KB/s (2585813 bytes in 0.612s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test005AddHolidayClock4
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test005AddHolidayClock4
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 63.951
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\Jira\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+3168 KB/s (2585812 bytes in 0.797s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test035DeleteClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+3
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test035DeleteClock
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test035DeleteClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 38.627
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\Jira\clock5.0\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 8 source files to D:\Jira\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+3638 KB/s (2585792 bytes in 0.694s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test035DeleteClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+Buildfile: D:\Jira\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\Jira\clock5.0\bin\classes
+      [dex] input: D:\Jira\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-f7ca669873718116ec65da9860b8d157.jar <- D:\Jira\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\Jira\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\Jira\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+4052 KB/s (2585792 bytes in 0.623s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test035DeleteClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+6
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test035DeleteClock
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in test035DeleteClock:
+
+junit.framework.AssertionFailedError: expected:<2> but was:<6>
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test035DeleteClock(ClockSanityTestNewCase.java:1333)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test035DeleteClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: expected:<2> but was:<6>
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test035DeleteClock(ClockSanityTestNewCase.java:1333)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 29.242
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\IDEA\clock5.0\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 8 source files to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+3932 KB/s (2585793 bytes in 0.642s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+3596 KB/s (2585793 bytes in 0.702s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test003AddClock
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+4477 KB/s (2585792 bytes in 0.564s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test043StartStopwatch
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+00 10
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test043StartStopwatch
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test043StartStopwatch
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 19.497
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+error: device '(null)' not found
+error: device '(null)' not found
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+4201 KB/s (2585792 bytes in 0.601s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test043StartStopwatch
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+00 09
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test043StartStopwatch
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test043StartStopwatch
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 22.785
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+6055 KB/s (2585796 bytes in 0.417s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test062BackgroundTimer
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test062BackgroundTimer
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test062BackgroundTimer
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 76.518
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: D:\IDEA\clock5.0\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 8 source files to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.4s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+4126 KB/s (2585795 bytes in 0.612s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test048BackgroundTiming
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test048BackgroundTiming:
+
+com.meizu.automation.constants.AutoException: Element not found with By[DESCRIPTION=计时器]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:352)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test048BackgroundTiming(ClockSanityTestNewCase.java:1632)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with By[DESCRIPTION=计时器]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:352)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test048BackgroundTiming(ClockSanityTestNewCase.java:1632)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 36.823
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+6680 KB/s (2585800 bytes in 0.378s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test048BackgroundTiming
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 40.799
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.3KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.4KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+3670 KB/s (2585797 bytes in 0.688s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test048BackgroundTiming
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in test048BackgroundTiming:
+
+com.meizu.automation.constants.AutoException: Element not found with By[DESCRIPTION=计时器]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:352)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test048BackgroundTiming(ClockSanityTestNewCase.java:1633)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=com.meizu.automation.constants.AutoException: Element not found with By[DESCRIPTION=计时器]
+
+	at com.meizu.automation.DefaultElement.notFoundException(DefaultElement.java:34)
+
+	at com.meizu.automation.DefaultElement.click(DefaultElement.java:157)
+
+	at com.meizu.clock.test.TestScript.chooseType(TestScript.java:352)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test048BackgroundTiming(ClockSanityTestNewCase.java:1633)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:284)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 236.892
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.4KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.5KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+5000 KB/s (2585800 bytes in 0.505s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=_
+
+caseName is : test048BackgroundTiming
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 114.293
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.5KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.7KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+5792 KB/s (2585922 bytes in 0.436s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test048BackgroundTiming
+
+false
+
+false
+
+false
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Failure in test048BackgroundTiming:
+
+junit.framework.AssertionFailedError: 状态栏未显示计时
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test048BackgroundTiming(ClockSanityTestNewCase.java:1645)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: 状态栏未显示计时
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.test048BackgroundTiming(ClockSanityTestNewCase.java:1645)
+
+	at com.meizu.clock.test.ClockSanityTestNewCase.runTest(ClockSanityTestNewCase.java:129)
+
+	at com.meizu.automation.AutoTestCase.run(AutoTestCase.java:41)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:161)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:258)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -2
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.F
+
+Time: 29.53
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 1,  Errors: 0
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\BridgeUtil.class(com\meizu\uibridge:BridgeUtil.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] ���棺com\meizu\uibridge\NotRootException.class(com\meizu\uibridge:NotRootException.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 3 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.6KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/435.8KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+6189 KB/s (2585935 bytes in 0.408s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test048BackgroundTiming
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test048BackgroundTiming
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 44.063
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Buildfile: D:\IDEA\clock5.0\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.4.1
+ [checkenv] Installed at E:\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 23.0.2
+     [echo] Resolving Build Target for clock...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\IDEA\clock5.0\bin\classes
+    [javac] ���棺jp\jun_nama\test\utf7ime\helper\Utf7ImeHelper.class(jp\jun_nama\test\utf7ime\helper:Utf7ImeHelper.class): ���汾 51 �� 50 �£��˱�����֧�����µ����汾��
+    [javac] ������˱�������
+    [javac] 1 ����
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\IDEA\clock5.0\bin\classes
+      [dex] input: D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Using Pre-Dexed automation-c37bdacb1a2bba1b6b9896f177dfbb80.jar <- D:\IDEA\clock5.0\libs\automation.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\IDEA\clock5.0\bin\classes.dex...
+       [dx] Merged dex #1 (14 defs/94.9KiB)
+       [dx] Merged dex #2 (104 defs/257.6KiB)
+       [dx] Result is 118 defs/436.1KiB. Took 0.3s
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\IDEA\clock5.0\bin\clock.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+2834 KB/s (2585959 bytes in 0.891s)
+initial
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.meizu.clock.test.ClockSanityTestNewCase:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test044TimingPause
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+setUp success
+
+-----runTest-----
+
+INSTRUMENTATION_STATUS: language=zh_CN
+
+caseName is : zh_CN-test044TimingPause
+
+true
+
+true
+
+true
+
+-----tearDown-----
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=test044TimingPause
+
+INSTRUMENTATION_STATUS: class=com.meizu.clock.test.ClockSanityTestNewCase
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 41.002
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
